@@ -12,7 +12,7 @@ Follow the instructions: https://docs.okd.io/latest/minishift/getting-started/pr
 Manual Deploy Jenkins Instance on Minishift
 -------
 
-1. oc apply -f openshift/buildConfig.yaml
+1. oc apply -f openshift/build-config.yaml
 
 2. oc start-build custom-jenkins-build
 
